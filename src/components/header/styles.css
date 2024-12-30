@@ -1,0 +1,9 @@
+header{
+    background-image: linear-gradient(to bottom, #00000055 30%, #00000000) ,url(../../assets/images/image-hero-mobile.jpg);
+}
+
+@media only screen and (width >= 1024px) {
+    header{
+        background-image: linear-gradient(to bottom, #00000055 30%, #00000000) ,url(../../assets/images/image-hero-desktop.jpg);
+    }
+}

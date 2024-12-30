@@ -1,0 +1,1 @@
+export const currencyFormat = (value) => new Intl.NumberFormat('es-CL').format(value)
